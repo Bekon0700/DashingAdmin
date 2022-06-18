@@ -1,0 +1,20 @@
+.chart{
+    flex: 4;
+    padding: 15px;
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+    -moz-box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+    border-radius: 10px;
+
+    .title{
+        font-size: 18px;
+        color: gray;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+    }
+
+    .grid{
+        stroke: lightgray;
+    }
+}

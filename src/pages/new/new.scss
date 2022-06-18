@@ -1,0 +1,99 @@
+.new{
+    display: flex;
+    
+    .newContainer{
+        flex: 8;
+
+        .cards{
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            gap: 20px;
+            
+            .top{
+                box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+                -webkit-box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+                -moz-box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+                border-radius: 10px;
+                padding: 20px;
+
+
+                .title{
+                    font-size: 28px;
+                    font-weight: 200;
+                    color: gray;
+                }
+            }
+            .bottom{
+                box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+                -webkit-box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+                -moz-box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+                border-radius: 10px;
+                padding: 25px;
+
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+
+                .left{
+                    height: 300px;
+                    width: 300px;
+                    border: 0.5px dotted gray;
+                    border-radius: 25%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 80px;
+
+                    .img{
+                        height: 300px;
+                        width: 300px;
+                        object-fit: cover;
+                        border-radius: 25%;
+                    }
+                }
+
+                .right{
+                    padding: 40px;
+                    
+                    form{
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-around;
+                        gap: 20px;
+
+                        .formInput{
+                            width: 40%;
+
+                            label{
+                                display: flex;
+                                align-items: center;
+                                gap: 10px;
+                            }
+
+                            input{
+                                width: 100%;
+                                border: none;
+                                border-bottom: 1px solid gray;
+                                padding: 5px;
+                            }
+                            .btn{
+                                width: 100%;
+                                border: none;
+                                padding: 10px;
+                                font-size: 15px;
+                                font-weight: bold;
+                                margin-top: 40px;
+                                cursor: pointer;
+                            }
+                        }
+
+                    }
+                }
+
+            }
+
+        }
+    }
+        
+}

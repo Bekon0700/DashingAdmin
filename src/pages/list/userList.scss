@@ -1,0 +1,11 @@
+.userList{
+    display: flex;
+
+    .userListContainer{
+        flex: 8;
+
+        .tableContainer{
+            padding: 15px;
+        }
+    }
+}

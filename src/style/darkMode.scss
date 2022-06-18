@@ -1,0 +1,40 @@
+.App.dark{
+    background-color: #222;
+    
+    .grid{
+        stroke: rgb(78, 78, 78);
+    }
+    
+    .tableCell{
+        background-color: #222;
+        color: gray;
+    }
+    
+    .navbar{
+        color: #999;
+        border-color: #333;
+        
+        .search{
+            border-color: #333;
+        }
+    }
+    
+    .sideBar{
+        background-color: #222;
+        color: #999;
+        border-color: #333;
+        
+        hr{
+            border-color: #333;
+        }
+    }
+
+    .widget{
+        .counter{
+            color: #888;
+        }
+        .link{
+            color: #666;
+        }
+    }
+}

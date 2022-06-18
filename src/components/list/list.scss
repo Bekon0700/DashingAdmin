@@ -1,0 +1,48 @@
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+    -moz-box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+    border-radius: 10px;
+
+    .title{
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 15px;
+    }
+
+    .tableCell{
+        .rowWrapper{
+            display: flex;
+            align-items: center;
+
+
+            .productImg{
+                height: 30px;
+                width: 30px;
+                border-radius: 50%;
+                padding-right: 10px;
+                object-fit: cover;
+            }
+        }
+
+
+        .status{
+            padding: 5px;
+            border-radius: 5px;
+
+            &.Approved{
+                background-color: rgb(0, 128, 0, 0.151);
+                color: green;
+            }
+
+            &.Pending{
+                background-color: rgb(189, 189, 3, 0.103);
+                color: goldenrod;
+            }
+        }
+    }
+}
